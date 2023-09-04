@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+.app {
+  padding-top: 70px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  max-width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Removes scrollbar */
+::-webkit-scrollbar {
+  display: none;
 }
 
-.App-link {
-  color: #61dafb;
+.home,
+.about,
+.menu {
+  min-height: 55rem;
+  padding-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.review{
+  padding-top: 50px;
+  height: 35rem;
+}
+.service {
+  padding-top: 50px;
+  height: 55rem;
+}
+
+.btn {
+  border: 2px solid orange;
+  transition: all 0.6s ease;
+}
+
+.btn:hover {
+  color: orange;
+  background: transparent;
+}
+
+.btn-2 {
+  color: orange;
+  border: 2px solid orange;
+  transition: all 0.6s ease;
+}
+
+.btn-2:hover {
+  color: rgb(31 41 55 / var(--tw-bg-opacity));
+  background: orange;
+}
+
+.btn-3 {
+  border: 2px solid orange;
+  transition: all 0.6s ease;
+}
+
+.btn-3:hover {
+  color: orange;
+  background: white;
 }

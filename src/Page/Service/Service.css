@@ -1,0 +1,25 @@
+
+.service__container {
+    width: 85vw;
+}
+
+.service__items {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.service__items img {
+    width: 230px;
+    height: 230px;
+}
+
+.service__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-top: 100px;
+}

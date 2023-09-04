@@ -1,0 +1,29 @@
+.card {
+    height: 380px;
+    transition: all .6s ease;
+}
+
+.card:hover {
+    transform: scale(1.08);
+}
+
+.card img {
+    height: 280px;
+    object-fit: cover;
+    margin: auto;
+    width: 100%;
+}
+
+.card__btn {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.card__btn > button {
+    width: 40px;
+    height: 40px;
+}

@@ -1,0 +1,33 @@
+.nav {
+    padding: 15px 100px;
+    z-index: 1000;
+}
+.nav__list{
+    width: 600px;
+}
+
+.nav__list a,
+.nav__iconLink{
+    transition: all .4s ease;
+}
+
+.nav .active {
+    color: orange;
+    font-weight: bold;
+}
+
+.nav__list a:hover,
+.nav__iconLink:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+}
+
+.nav__icons {
+    width: 120px;
+}
+
+.nav__iconLink:hover{
+    color: orange;
+    border: 2px solid;
+    background: transparent;
+}
